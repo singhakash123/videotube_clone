@@ -33,19 +33,14 @@ export const fileUploader = async function (filePath) {
 
      
 /*
+
 ⚡ Most Useful Fields You’ll Use
-
 secure_url → final HTTPS URL (DB me save karna isi ko best hai ✅).
-
 public_id → unique ID jo Cloudinary deta hai (future me delete/update karne ke liye use hota hai).
-
 resource_type → "image" / "video" / "raw".
-
 format → file type (jpg, png, mp4, etc.).
-
 bytes → file size in bytes.
-
 width & height → image/video dimensions.
-
 duration (agar video hai) → length in seconds.
+
 */
