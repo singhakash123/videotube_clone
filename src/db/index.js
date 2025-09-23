@@ -8,7 +8,7 @@ export const db_connected = async () => {
     const connectionInstance = await mongoose.connect(mongoDb_String);
 
     console.log(
-    `✅ Database connected successfully!\nDB Host: ${connectionInstance.connection.host}\nDB Name: ${connectionInstance.connection.name}`
+      `✅ Database connected successfully!\nDB Host: ${connectionInstance.connection.host}\nDB Name: ${connectionInstance.connection.name}`
     );
   } catch (error) {
     console.error(`❌ Database connection failed: ${error.message}`);

@@ -18,7 +18,9 @@ export const app = express();
        origin : process.env.CORS_ORIGIN 
   }))
 
+
 app.use(cookieParser())
+
 
 // 2. Body Parsing : 
 app.use(express.json({
